@@ -1,0 +1,146 @@
+body{
+    scroll-behavior: smooth;
+}
+
+nav{
+    font-family: 'champagne__limousinesbold' !important; 
+}
+
+
+nav .nav-link {
+    color: white !important;
+}
+
+nav ul li:hover{
+    background-color: #492a6b;
+    border-radius: 20px;
+}
+
+nav .btn {
+    border: 1px solid !important;
+    margin: 4px !important;
+    color: #eb3ec5 !important;
+}
+
+nav .btn:hover {
+    background-color: #eb3ec5 !important;
+    margin: 4px !important;
+    color: white !important;
+    border: 1px transparent !important;
+}
+
+
+main{
+    font-family: 'champagne__limousinesbold' !important;
+}
+
+#prin-crip h1{
+    font-family: 'game_of_squidsregular';
+    color:  #201731;
+    padding-left: 50px;
+    font-size: 25pt;
+}
+
+#prin-crip table {
+
+    font-size: 14pt !important;
+    width: 1200px !important;
+}
+
+#prin-crip table tbody {
+    
+    font-family: 'champagne__limousinesregular' !important;
+}
+
+.parallax-cut{
+    background: #000;
+    background: linear-gradient(
+                rgba(0,0,0,0.3),
+                rgba(0,0,0,0.8)   
+    ), url(/assets/img/Purple\ bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cut-content i{
+    font-size: 25pt;
+    padding: 10px;
+
+}
+
+#cal-eco h1{
+    font-family: 'game_of_squidsregular';
+    color:  #201731;
+    padding-left: 50px;
+    font-size: 25pt;
+}
+
+#cal-eco table {
+
+    font-size: 14pt !important;
+    width: 1200px !important;
+}
+
+#cal-eco table tbody {
+    
+    font-family: 'champagne__limousinesregular' !important;
+}
+
+#mer-fin h1{
+    font-family: 'game_of_squidsregular';
+    color:  #201731;
+    padding-left: 50px;
+    font-size: 25pt;
+}
+
+#mer-fin .nav-link{
+    color: #201731 !important;
+    font-family: 'champagne__limousinesbold' !important;
+    font-size: 14pt !important;
+}
+#mer-fin .active{
+    color: #eb3ec5 !important;
+    font-family: 'champagne__limousinesbold' !important;
+}
+
+#mer-fin h2{
+    font-family: 'champagne__limousinesbold';
+    color:  #201731;
+    font-size: 25pt;
+}
+
+#mer-fin .card{
+   
+    margin: 12px;
+}
+
+form{
+    padding-right: 20px;
+}
+
+footer {
+    background-color: #201731;
+    height: 290px;
+}
+
+footer .container{
+
+    padding: 30px;
+    width: 100%;
+    color: white;
+}
+
+footer i{
+
+    font-size: 30pt;
+    color: white;
+}
+
+footer p{
+
+    font-size: 7pt;
+    padding-top: 20px;
+    color: white;
+}
